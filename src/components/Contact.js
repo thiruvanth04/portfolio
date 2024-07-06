@@ -3,7 +3,7 @@ export default function Contact() {
 
     const config = {
         email: 'thiruvanthjp@gmail.com',
-        phone: '+91 9514785522'
+        phone: '+91 9514785523'
     }
 
     return (
