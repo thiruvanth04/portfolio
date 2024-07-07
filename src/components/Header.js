@@ -4,7 +4,7 @@ import { useState } from 'react'
 export default function Header() {
     const [toggleMenu, setToggleMenu]  = useState(false);
 
-    return <header className="flex justify-between px-5 py-2 bg-secondary ">
+    return <header className="flex justify-between px-5 py-2 bg-secondary md:fixed md:w-full md:z-50 ">
         <a className="font-bold text-gray-300" href="#">Thiruvanth J P</a>
         <nav className="hidden md:block">
             <ul className="flex text-white ">
@@ -27,3 +27,4 @@ export default function Header() {
         <button onClick={() => setToggleMenu(!toggleMenu)} className='block md:hidden'><Bars3Icon className='text-white h-5'/></button>
     </header>
 }
+

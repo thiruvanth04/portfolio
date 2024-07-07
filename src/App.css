@@ -48,6 +48,11 @@ header ul li {
     padding-bottom: 20px;
 }
 
+.hover\:text-accent:hover {
+    color: #FF5733; /* Example accent color */
+}
+
+
 html {
     --scroll-behavior: smooth!important;
     scroll-behavior: smooth!important;
