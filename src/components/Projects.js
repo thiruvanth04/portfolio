@@ -41,7 +41,7 @@ export default function Project() {
                             <p>This Project is a backend system built with Node.js, Express.js, and MongoDB to manage user roles and permissions.</p>
                             <p className='py-2'>It uses JSON Web Tokens-JWT for secure authentication, ensuring controlled access based on roles. This project highlights skills in backend development, API security, and role-based access management.</p>
                             <div className="mt-2">
-                                <a className='btn text-white font-normal bg-gray-500 hover:bg-gray-600' href="https://github.com/thiruvanth04/Java-Applications" target="_blank" rel="noopener noreferrer">View Project</a>
+                                <a className='btn text-white font-normal bg-gray-500 hover:bg-gray-600' href="https://github.com/thiruvanth04/rbac" target="_blank" rel="noopener noreferrer">View Project</a>
                             </div>
                         </div>
                     </div>
