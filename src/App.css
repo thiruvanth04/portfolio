@@ -12,6 +12,7 @@ header ul li {
     /*background: linear-gradient(135deg, rgba(50, 47, 156, 1) 0%, rgba(92, 54, 160, 1) 50%, rgba(135, 61, 164, 1) 100%);*/
     /*background: linear-gradient(135deg, rgba(50, 47, 156, 1) 0%, rgba(92, 54, 160, 1) 50%, rgba(135, 61, 164, 1) 100%);*/
     background: linear-gradient(135deg, rgba(30, 27, 126, 1) 0%, rgba(62, 24, 130, 1) 50%, rgba(105, 31, 134, 1) 100%);
+    /*background: linear-gradient(135deg, rgba(10, 10, 50, 1) 0%, rgba(20, 20, 60, 1) 50%, rgba(30, 30, 70, 1) 100%);*/
 
 
 
@@ -20,6 +21,7 @@ header ul li {
 .bg-secondary {
     /*background: #2b2d77;*/
     background: linear-gradient(135deg, #2b2d77, #000000);
+    background: linear-gradient(135deg, rgba(15, 15, 40, 1), rgba(5, 5, 20, 1));
 
 }
 
