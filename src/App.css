@@ -21,10 +21,17 @@ header ul li {
 .bg-secondary {
     /*background: #2b2d77;*/
     background: linear-gradient(135deg, #2b2d77, #000000);
-    background: linear-gradient(135deg, rgba(15, 15, 40, 1), rgba(5, 5, 20, 1));
+    /*background: linear-gradient(135deg, rgba(15, 15, 40, 1), rgba(5, 5, 20, 1));*/
+    /*background: #0f0f28;*/
 
 }
+.bg-second {
+    /*background: #2b2d77;*/
+    /*background: linear-gradient(135deg, #2b2d77, #000000);*/
+    /*background: linear-gradient(135deg, rgba(15, 15, 40, 1), rgba(5, 5, 20, 1));*/
+    background: #0f0f28;
 
+}
 .mobile-nav {
     @apply fixed top-10 left-0 bg-gray-900 w-full h-1/4  ;
 }
@@ -54,8 +61,11 @@ header ul li {
     color: #FF5733; /* Example accent color */
 }
 
+@keyframes glow {
+    0% { text-shadow: 0 0 10px rgba(255, 255, 255, 0.3), 0 0 20px rgba(0, 123, 255, 0.5); }
+    100% { text-shadow: 0 0 15px rgba(255, 255, 255, 0.6), 0 0 30px rgba(0, 123, 255, 0.8); }
+}
 
-html {
-    --scroll-behavior: smooth!important;
-    scroll-behavior: smooth!important;
-    }
+.hover\:animate-glow:hover {
+    animation: glow 1s infinite alternate ease-in-out;
+}
