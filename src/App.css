@@ -69,3 +69,17 @@ header ul li {
 .hover\:animate-glow:hover {
     animation: glow 1s infinite alternate ease-in-out;
 }
+
+html, body {
+    overflow-x: hidden;
+  }
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  

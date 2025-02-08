@@ -82,7 +82,7 @@ import { SiLeetcode, SiGeeksforgeeks } from "react-icons/si";
 
 export default function Hero() {
     return (
-        <section className='flex flex-col md:flex-row px-5 py-10 bg-primary justify-center'>
+        <section className='flex flex-col md:flex-row px-5 py-14 bg-primary justify-center'>
             <div className='md:w-1/3 flex flex-col justify-center mb-5 md:mb-0'>
                 <h1 className='text-white font-hero-font text-5xl mb-5 relative'>
                     Hi,<br /> I'm{" "} 
