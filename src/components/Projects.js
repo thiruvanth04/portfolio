@@ -18,7 +18,7 @@ export default function Project() {
                             <p>A Full-stack application of OpenAI's DALL-E, a Text to Image-AI application utilizing Mongo-DB,Express.js,React JS,Node.js (MERN) Web stack.</p>
                             <p className='py-2'>Utilized OpenAI's API, enabling users to generate images and share them to the community.</p>
                             <div className="mt-2">
-                                <a className='btn text-white font-normal bg-gray-500 hover:bg-gray-600' href="https://github.com/thiruvanth04/dall-e-project" target="_blank" rel="noopener noreferrer">View Project</a>
+                                <a className='btn text-white font-normal bg-gray-500 hover:bg-gray-600' href="https://dall-e-project-eight.vercel.app/" target="_blank" rel="noopener noreferrer">View Project</a>
                             </div>
                         </div>
                     </div>
